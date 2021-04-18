@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "fe15b493-966d-4dc0-8532-7c422eeeb797",
+    "name": "Genens",
+    "created": "2021-01-28 20:36:05 +1100",
+    "source": "DarkWebb",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "083f11b1-3e5b-49e2-b0b8-2b13e72fb534",
+    "name": "Txckyo_YT",
+    "created": "2021-01-28 17:09:01 +1100",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "2c1f5a12-9e2f-474c-8754-b08d53fa31bc",
+    "name": "srrx",
+    "created": "2021-01-19 00:32:48 +1100",
+    "source": "DarkWebb",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

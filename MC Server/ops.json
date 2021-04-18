@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "be8951ae-e84d-4622-9eaa-66437128c789",
+    "name": "plumb_bob",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9b6b82df-5c79-4b94-b16e-756f0a35a5e1",
+    "name": "dawnsend",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "08106faa-b043-4cde-9290-6db2c79ba455",
+    "name": "DarkWebb",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "cf1583d3-ba0a-44ec-aed2-7eb41c9deaea",
+    "name": "MeowgicMerzy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c46ede68-dd72-43b9-a052-920323e7587d",
+    "name": "Sampseth",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

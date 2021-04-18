@@ -1,0 +1,221 @@
+[11:39:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:39:27] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:39:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:39:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:39:27] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:39:27] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:39:27] [main/INFO]: Reloading ResourceManager: Default
+[11:39:29] [Worker-Main-12/INFO]: Loaded 7 recipes
+[11:39:29] [Worker-Main-12/INFO]: Loaded 927 advancements
+[11:39:33] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[11:39:33] [Server thread/INFO]: Loading properties
+[11:39:33] [Server thread/INFO]: Default game type: SURVIVAL
+[11:39:33] [Server thread/INFO]: Generating keypair
+[11:39:33] [Server thread/INFO]: Starting Minecraft server on 10.0.0.80:25565
+[11:39:33] [Server thread/INFO]: Using default channel type
+[11:39:36] [Server thread/INFO]: Preparing level "world"
+[11:39:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:39:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:39:39] [Server thread/INFO]: Preparing spawn area: 27%
+[11:39:41] [Server thread/INFO]: Time elapsed: 5187 ms
+[11:39:41] [Server thread/INFO]: Done (5.538s)! For help, type "help"
+[11:39:45] [User Authenticator #1/INFO]: UUID of player Sampseth is c46ede68-dd72-43b9-a052-920323e7587d
+[11:39:45] [Server thread/INFO]: Sampseth[/73.121.27.37:50738] logged in with entity id 110 at (-1586.4626609097438, 63.0, -1410.9549962118592)
+[11:39:46] [Server thread/INFO]: Sampseth joined the game
+[11:39:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2233ms or 44 ticks behind
+[11:40:35] [User Authenticator #2/INFO]: UUID of player MeowgicMerzy is cf1583d3-ba0a-44ec-aed2-7eb41c9deaea
+[11:40:35] [Server thread/INFO]: MeowgicMerzy[/73.58.21.55:55571] logged in with entity id 5373 at (-1580.5930246158575, 63.0, -1418.3309864490457)
+[11:40:35] [Server thread/INFO]: MeowgicMerzy joined the game
+[11:40:46] [Server thread/INFO]: [Sampseth: Killed 5136 entities]
+[11:40:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45228ms or 904 ticks behind
+[11:40:55] [User Authenticator #3/INFO]: UUID of player DarkWebb is 08106faa-b043-4cde-9290-6db2c79ba455
+[11:40:55] [Server thread/INFO]: DarkWebb[/58.161.35.160:51835] logged in with entity id 5508 at (-1529.699999988079, 65.0, -1463.0886522677781)
+[11:40:55] [Server thread/INFO]: DarkWebb joined the game
+[11:41:15] [Server thread/INFO]: [Sampseth: Applied enchantment Impaling V to Sampseth's item]
+[11:41:46] [Server thread/INFO]: Sampseth has made the advancement [A Throwaway Joke]
+[11:42:51] [Server thread/INFO]: MeowgicMerzy was slain by Sampseth
+[11:42:58] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to DarkWebb]
+[11:43:03] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to DarkWebb]
+[11:43:11] [Server thread/INFO]: MeowgicMerzy was burnt to a crisp whilst fighting DarkWebb
+[11:43:12] [Server thread/INFO]: [Sampseth: Gamerule doWeatherCycle is now set to: true]
+[11:43:17] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to DarkWebb]
+[11:43:20] [Server thread/INFO]: [Sampseth: Set the weather to rain & thunder]
+[11:43:21] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to DarkWebb]
+[11:43:26] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to DarkWebb]
+[11:43:38] [Server thread/WARN]: DarkWebb moved wrongly!
+[11:43:42] [Server thread/INFO]: MeowgicMerzy was slain by DarkWebb
+[11:43:43] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at zy.b(SourceFile:202) ~[1.16.4.jar:?]
+	at zs.a(SourceFile:939) ~[1.16.4.jar:?]
+	at aae.a(SourceFile:467) ~[1.16.4.jar:?]
+	at aay.a(SourceFile:931) ~[1.16.4.jar:?]
+	at st.a(SourceFile:122) ~[1.16.4.jar:?]
+	at st$a.a(SourceFile:56) ~[1.16.4.jar:?]
+	at ol.a(SourceFile:21) ~[1.16.4.jar:?]
+	at wb.run(SourceFile:18) ~[1.16.4.jar:?]
+	at aob.c(SourceFile:144) ~[1.16.4.jar:?]
+	at aof.c(SourceFile:23) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:761) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:155) ~[1.16.4.jar:?]
+	at aob.y(SourceFile:118) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.bb(SourceFile:743) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:737) ~[1.16.4.jar:?]
+	at aob.c(SourceFile:127) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.x(SourceFile:722) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:674) ~[1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257) ~[1.16.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_271]
+[11:43:48] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to Sampseth]
+[11:43:53] [Server thread/INFO]: [DarkWebb: Set the weather to rain & thunder]
+[11:43:55] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to Sampseth]
+[11:44:11] [Server thread/INFO]: Sampseth fell out of the world
+[11:44:11] [Server thread/INFO]: DarkWebb fell out of the world
+[11:44:11] [Server thread/INFO]: MeowgicMerzy fell out of the world
+[11:44:11] [Server thread/INFO]: [DarkWebb: Killed 3 entities]
+[11:44:17] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Creative Mode]
+[11:44:18] [Server thread/INFO]: [Sampseth: Set the weather to rain & thunder]
+[11:44:22] [Server thread/INFO]: [DarkWebb: Teleported 3 entities to DarkWebb]
+[11:44:39] [Server thread/INFO]: [Sampseth: Set own game mode to Spectator Mode]
+[11:44:52] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Survival Mode]
+[11:45:23] [Server thread/INFO]: [Sampseth: Set own game mode to Survival Mode]
+[11:45:40] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Spectator Mode]
+[11:45:41] [Server thread/INFO]: [Sampseth: Applied enchantment Channeling to Sampseth's item]
+[11:45:57] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Survival Mode]
+[11:46:22] [Server thread/INFO]: [Sampseth: Set own game mode to Creative Mode]
+[11:46:29] [Server thread/INFO]: [DarkWebb: Teleported 3 entities to 10000.5, 60.0, 10000.5]
+[11:46:30] [Server thread/WARN]: DarkWebb moved wrongly!
+[11:46:33] [Server thread/INFO]: [Sampseth: Set own game mode to Spectator Mode]
+[11:46:34] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Creative Mode]
+[11:46:37] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Adventure Mode]
+[11:46:38] [Server thread/INFO]: [Sampseth: Teleported 3 entities to Sampseth]
+[11:46:39] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Spectator Mode]
+[11:46:42] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Survival Mode]
+[11:46:43] [Server thread/INFO]: [Sampseth: Set own game mode to Survival Mode]
+[11:46:47] [Server thread/INFO]: [Sampseth: Set the weather to rain & thunder]
+[11:46:52] [Server thread/INFO]: [Sampseth: Set the weather to rain & thunder]
+[11:47:27] [Server thread/INFO]: [Sampseth: Set own game mode to Creative Mode]
+[11:47:35] [Server thread/INFO]: [Sampseth: Gave 1 [Command Block] to Sampseth]
+[11:48:14] [Server thread/INFO]: [MeowgicMerzy: Gave 64 [Torch] to MeowgicMerzy]
+[11:48:37] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Creative Mode]
+[11:48:58] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Survival Mode]
+[11:49:10] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Creative Mode]
+[11:49:22] [Server thread/INFO]: [Sampseth: Summoned new Lightning Bolt]
+[11:49:33] [Server thread/INFO]: [Sampseth: Summoned new Lightning Bolt]
+[11:49:58] [Server thread/INFO]: [Sampseth: Set own game mode to Survival Mode]
+[11:51:03] [Server thread/INFO]: MeowgicMerzy fell out of the world
+[11:51:03] [Server thread/INFO]: [Sampseth: Killed MeowgicMerzy]
+[11:51:09] [Server thread/INFO]: [MeowgicMerzy: Teleported MeowgicMerzy to Sampseth]
+[11:52:06] [Server thread/INFO]: [Sampseth: Gave 1 [Trident] to Sampseth]
+[11:52:08] [Server thread/INFO]: [Sampseth: Applied enchantment Riptide III to Sampseth's item]
+[11:52:17] [Server thread/INFO]: [MeowgicMerzy: Applied enchantment Fire Aspect I to MeowgicMerzy's item]
+[11:52:34] [Server thread/INFO]: [MeowgicMerzy: Applied enchantment Sharpness V to MeowgicMerzy's item]
+[11:52:44] [Server thread/INFO]: [MeowgicMerzy: Applied enchantment Unbreaking III to MeowgicMerzy's item]
+[11:53:19] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Survival Mode]
+[11:53:30] [Server thread/INFO]: [Sampseth: Set own game mode to Creative Mode]
+[11:53:35] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Creative Mode]
+[11:54:00] [Server thread/INFO]: [MeowgicMerzy: Set own game mode to Survival Mode]
+[11:54:20] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[11:54:22] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[11:54:25] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[11:54:27] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[11:54:39] [Server thread/INFO]: [Sampseth: Set own game mode to Survival Mode]
+[11:55:09] [Server thread/INFO]: MeowgicMerzy lost connection: Disconnected
+[11:55:09] [Server thread/INFO]: MeowgicMerzy left the game
+[12:01:43] [Server thread/INFO]: DarkWebb was slain by Sampseth
+[12:02:14] [Server thread/INFO]: [DarkWebb: Set own game mode to Creative Mode]
+[12:05:29] [Server thread/WARN]: DarkWebb moved too quickly! -7.612713948805663,-0.3225421562489572,-7.24686606162777
+[12:06:12] [Server thread/INFO]: [DarkWebb: Teleported Sampseth to DarkWebb]
+[12:06:30] [Server thread/INFO]: [DarkWebb: Set own game mode to Survival Mode]
+[12:07:31] [Server thread/INFO]: [DarkWebb: Set own game mode to Creative Mode]
+[12:07:53] [Server thread/INFO]: [Sampseth: Set own game mode to Spectator Mode]
+[12:08:14] [Server thread/INFO]: [Sampseth: Set own game mode to Survival Mode]
+[12:08:50] [Server thread/INFO]: [Sampseth: Set the weather to rain]
+[12:09:52] [Server thread/INFO]: [DarkWebb: Set own game mode to Survival Mode]
+[12:11:09] [Server thread/INFO]: [DarkWebb: Set own game mode to Creative Mode]
+[12:11:37] [Server thread/INFO]: [DarkWebb: Teleported Sampseth to DarkWebb]
+[12:12:09] [Server thread/INFO]: [DarkWebb: Set own game mode to Survival Mode]
+[12:14:13] [Server thread/INFO]: [DarkWebb: Summoned new Wither]
+[12:14:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/14114, l='ServerLevel[world]', x=623.39, y=55.16, z=-1260.68]
+[12:14:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/14114, l='ServerLevel[world]', x=623.39, y=55.16, z=-1260.68]
+[12:14:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14115, l='ServerLevel[world]', x=623.39, y=55.16, z=-1260.68]
+[12:14:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14115, l='ServerLevel[world]', x=623.39, y=55.16, z=-1260.68]
+[12:14:20] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/14122, l='ServerLevel[world]', x=601.18, y=56.17, z=-1270.45]
+[12:14:20] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/14122, l='ServerLevel[world]', x=601.18, y=56.17, z=-1270.45]
+[12:14:20] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14123, l='ServerLevel[world]', x=601.18, y=56.17, z=-1270.45]
+[12:14:20] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14123, l='ServerLevel[world]', x=601.18, y=56.17, z=-1270.45]
+[12:14:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/14138, l='ServerLevel[world]', x=600.42, y=54.60, z=-1276.70]
+[12:14:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/14138, l='ServerLevel[world]', x=600.42, y=54.60, z=-1276.70]
+[12:14:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14139, l='ServerLevel[world]', x=600.42, y=54.60, z=-1276.70]
+[12:14:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14139, l='ServerLevel[world]', x=600.42, y=54.60, z=-1276.70]
+[12:14:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/14153, l='ServerLevel[world]', x=599.34, y=52.00, z=-1282.35]
+[12:14:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/14153, l='ServerLevel[world]', x=599.34, y=52.00, z=-1282.35]
+[12:14:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Bone Meal'/14154, l='ServerLevel[world]', x=599.34, y=52.00, z=-1282.35]
+[12:14:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Bone Meal'/14154, l='ServerLevel[world]', x=599.34, y=52.00, z=-1282.35]
+[12:14:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14155, l='ServerLevel[world]', x=599.34, y=52.00, z=-1282.35]
+[12:14:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/14155, l='ServerLevel[world]', x=599.34, y=52.00, z=-1282.35]
+[12:15:41] [Server thread/INFO]: Villager bfj['Villager'/13193, l='ServerLevel[world]', x=579.82, y=65.00, z=-1253.16] died, message: 'Villager was slain by Vindicator'
+[12:15:42] [Server thread/INFO]: Villager bfj['Villager'/13175, l='ServerLevel[world]', x=573.36, y=65.00, z=-1266.14] died, message: 'Villager was shot by Pillager'
+[12:15:49] [Server thread/INFO]: Villager bfj['Villager'/13178, l='ServerLevel[world]', x=556.95, y=64.00, z=-1258.05] died, message: 'Villager was slain by Husk'
+[12:15:50] [Server thread/INFO]: Villager bfj['Nitwit'/13192, l='ServerLevel[world]', x=553.04, y=64.00, z=-1261.92] died, message: 'Nitwit was slain by Vindicator'
+[12:15:50] [Server thread/INFO]: Villager bfj['Villager'/13176, l='ServerLevel[world]', x=585.55, y=63.42, z=-1278.30] died, message: 'Villager was slain by Vindicator'
+[12:15:56] [Server thread/INFO]: Villager bfj['Villager'/13177, l='ServerLevel[world]', x=578.66, y=65.79, z=-1256.37] died, message: 'Villager was slain by Vindicator'
+[12:17:55] [Server thread/INFO]: DarkWebb was killed by Witch using magic
+[12:17:57] [Server thread/WARN]: DarkWebb moved too quickly! -370.3515609271052,0.5625,51.53957665141752
+[12:17:57] [Server thread/WARN]: DarkWebb moved too quickly! -370.3515609271052,0.5625,51.53957665141752
+[12:18:20] [Server thread/INFO]: [Sampseth: Gave 1 [Enchanted Golden Apple] to Sampseth]
+[12:18:22] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/15351, l='ServerLevel[world]', x=644.55, y=56.52, z=-1248.64]
+[12:18:22] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/15352, l='ServerLevel[world]', x=644.55, y=56.52, z=-1248.64]
+[12:18:22] [Server thread/INFO]: DarkWebb lost connection: Disconnected
+[12:18:22] [Server thread/INFO]: DarkWebb left the game
+[12:18:27] [Server thread/INFO]: [Sampseth: Gave 3 [Enchanted Golden Apple] to Sampseth]
+[12:18:28] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/15366, l='ServerLevel[world]', x=644.40, y=57.00, z=-1248.35]
+[12:18:28] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/15367, l='ServerLevel[world]', x=644.40, y=57.00, z=-1248.35]
+[12:18:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/15369, l='ServerLevel[world]', x=663.21, y=55.00, z=-1262.71]
+[12:18:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/15370, l='ServerLevel[world]', x=663.21, y=55.00, z=-1262.71]
+[12:19:46] [Server thread/INFO]: [Sampseth: Gave 1 [Diamond Helmet] to Sampseth]
+[12:19:54] [Server thread/INFO]: [Sampseth: Applied enchantment Protection III to Sampseth's item]
+[12:20:04] [Server thread/INFO]: [Sampseth: Gave 1 [Diamond Helmet] to Sampseth]
+[12:20:06] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[12:22:47] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/16627, l='ServerLevel[world]', x=641.52, y=61.92, z=-1318.61]
+[12:22:47] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/16628, l='ServerLevel[world]', x=641.52, y=61.92, z=-1318.61]
+[12:22:49] [Server thread/INFO]: [Sampseth: Gave 1 [Diamond Boots] to Sampseth]
+[12:22:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/16645, l='ServerLevel[world]', x=638.91, y=57.85, z=-1327.57]
+[12:22:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/16646, l='ServerLevel[world]', x=638.91, y=57.85, z=-1327.57]
+[12:22:53] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/16648, l='ServerLevel[world]', x=636.95, y=57.67, z=-1328.44]
+[12:22:53] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/16649, l='ServerLevel[world]', x=636.95, y=57.67, z=-1328.44]
+[12:22:54] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[12:22:56] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/16651, l='ServerLevel[world]', x=639.73, y=56.13, z=-1328.88]
+[12:22:56] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/16652, l='ServerLevel[world]', x=639.73, y=56.13, z=-1328.88]
+[12:23:04] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/16703, l='ServerLevel[world]', x=637.82, y=62.19, z=-1326.36]
+[12:23:04] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/16704, l='ServerLevel[world]', x=637.82, y=62.19, z=-1326.36]
+[12:23:23] [Server thread/INFO]: [Sampseth: Gave 1 [Diamond Sword] to Sampseth]
+[12:23:34] [Server thread/INFO]: [Sampseth: Applied enchantment Smite V to Sampseth's item]
+[12:24:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/17183, l='ServerLevel[world]', x=791.50, y=60.93, z=-1422.46]
+[12:24:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/17184, l='ServerLevel[world]', x=791.50, y=60.93, z=-1422.46]
+[12:25:07] [Server thread/INFO]: [Sampseth: Gave 1 [Diamond Leggings] to Sampseth]
+[12:25:22] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/17358, l='ServerLevel[world]', x=732.34, y=59.13, z=-1451.46]
+[12:25:22] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/17359, l='ServerLevel[world]', x=732.34, y=59.13, z=-1451.46]
+[12:25:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/17371, l='ServerLevel[world]', x=732.54, y=59.27, z=-1453.13]
+[12:25:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/17372, l='ServerLevel[world]', x=732.54, y=59.27, z=-1453.13]
+[12:25:25] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Cod'/17375, l='ServerLevel[world]', x=732.31, y=57.96, z=-1452.36]
+[12:25:25] [Server thread/WARN]: Fetching packet for removed entity bcv['Wither Rose'/17376, l='ServerLevel[world]', x=732.31, y=57.96, z=-1452.36]
+[12:25:27] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[12:26:11] [Server thread/INFO]: [Sampseth: Set own game mode to Creative Mode]
+[12:26:29] [Server thread/INFO]: [Sampseth: Gave 1 [Diamond Chestplate] to Sampseth]
+[12:26:32] [Server thread/INFO]: [Sampseth: Applied enchantment Protection IV to Sampseth's item]
+[12:27:09] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:27:21] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:27:28] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:27:42] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:27:44] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:27:46] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:27:48] [Server thread/INFO]: [Sampseth: Applied enchantment Mending to Sampseth's item]
+[12:28:02] [Server thread/INFO]: Sampseth lost connection: Disconnected
+[12:28:02] [Server thread/INFO]: Sampseth left the game
